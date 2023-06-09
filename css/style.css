@@ -2438,6 +2438,22 @@ footer .top_footer .anim_line span:nth-child(2) {
     top: 0;
 }
 
+.scroll_btn {
+    display: none;
+}
+
+header.fix_style.fixed .scroll_btn_hide{
+    display: none;
+}
+
+header.fix_style.fixed .scroll_btn{
+    display: block;
+}
+
+.scroll_btn img {
+    height: 40px;
+}
+
 @keyframes waves {
     0% {
         -webkit-transform: scale(0.2, 0.2);
